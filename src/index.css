@@ -1,0 +1,31 @@
+:root {
+
+    --main-font: 'Orbitron', sans-serif;
+    --calculator-background-color: #696969;
+
+    /* calculator dimensions */
+    --calculator-height: 72%;
+    --calculator-width: 36%;
+}
+
+/* media query for tablet or small screen */
+@media screen and (max-width: 1024px){
+    :root {
+        /* calculator dimensions */
+    --calculator-height: 100%;
+    --calculator-width: 100%;
+ 
+    }
+
+}
+
+/* 
+app reset
+ */
+
+ body,div,p {
+
+    margin: 0;
+    padding: 0;
+
+ }
